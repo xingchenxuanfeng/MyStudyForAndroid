@@ -1,0 +1,31 @@
+package com.example.threadmessage;
+
+import android.os.Handler;
+import android.os.Looper;
+
+public class NThread extends Thread {
+	Handler handler;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		Looper.prepare();
+		handler = new Handler();
+		Looper.loop();
+	}
+	public void doWork(){
+		handler.post(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				hand.
+			}
+		});
+	}
+	public void exit() {
+		// TODO Auto-generated method stub
+		handler.getLooper().quit();
+		
+	}
+}

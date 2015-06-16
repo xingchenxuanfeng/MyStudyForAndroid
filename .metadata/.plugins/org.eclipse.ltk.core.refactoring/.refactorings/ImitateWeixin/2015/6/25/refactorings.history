@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change Widget Type" description="Change Widget Type" file="/ImitateWeixin/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.changeview" proj="/ImitateWeixin" sel-end="526" sel-start="513" stamp="1434415566780" type="android.widget.HorizontalScrollView"/>&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/ImitateWeixin/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/ImitateWeixin" sel-end="526" sel-start="513" stamp="1434415576812" type="android.widget.GridLayout"/>
+</session>

@@ -1,0 +1,5 @@
+package com.example.threadmessage;
+
+public class NThread extends Thread {
+
+}

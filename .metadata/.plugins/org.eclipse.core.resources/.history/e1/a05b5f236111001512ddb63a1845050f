@@ -1,0 +1,31 @@
+package com.example.threadmessage;
+
+import java.io.IOException;
+import java.io.PipedReader;
+import java.io.PipedWriter;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+	String TAG = "Threadtest";
+	PipedReader pr;
+	PipedWriter pw;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		pr=new PipedReader();
+		pw= new PipedWriter();
+		try {
+			pw.connect(pr);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

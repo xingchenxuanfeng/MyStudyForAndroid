@@ -1,0 +1,34 @@
+package com.example.threadmessage;
+
+import java.io.PipedReader;
+
+import android.util.Log;
+
+public class NewThread extends Thread {
+	PipedReader pr;
+
+	public NewThread(PipedReader pipedReader) {
+		// TODO Auto-generated constructor stub
+		pr = pipedReader;
+	}
+	@SuppressWarnings("static-access")
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+		while (!Thread.currentThread().interrupted()) {
+
+			try {
+				int i;
+				if ((i= pr.read())!=-1) {
+					char c=(char)i;
+					Log.i();
+				}
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+		}
+	}
+
+}

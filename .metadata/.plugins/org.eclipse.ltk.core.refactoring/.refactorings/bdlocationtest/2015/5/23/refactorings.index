@@ -1,0 +1,3 @@
+1433056581382	Rename package 'com.example.bdlocationtest'
+1433057210297	Convert local variable 'mLocationClient' to field
+1433057524786	Convert local variable 'textView' to field

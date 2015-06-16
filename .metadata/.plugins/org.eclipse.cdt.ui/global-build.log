@@ -1,0 +1,53 @@
+
+**** Clean-only build of configuration Default for project C test ****
+
+make clean 
+
+Cannot run program "make": Launching failed
+Error: Program "make" is not found in PATH
+
+PATH=[C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;D:\datebase\product\11.2.0\client_2;D:\datebase\product\11.2.0\client_2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Broadcom\Broadcom 802.11;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT ;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Java\jdk1.8.0_25\jre\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\amn\Study\android_sdk_eclipse_4.3\eclipse;]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloJni ****
+
+D:\amn\Study\android_sdk_eclipse_4.3\android-ndk-r10e\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-4 is larger than android:minSdkVersion 3 in ./AndroidManifest.xml    
+[arm64-v8a] Gdbserver      : [aarch64-linux-android-4.9] libs/arm64-v8a/gdbserver
+[arm64-v8a] Gdbsetup       : libs/arm64-v8a/gdb.setup
+[x86_64] Gdbserver      : [x86_64-4.9] libs/x86_64/gdbserver
+[x86_64] Gdbsetup       : libs/x86_64/gdb.setup
+[mips64] Gdbserver      : [mips64el-linux-android-4.9] libs/mips64/gdbserver
+[mips64] Gdbsetup       : libs/mips64/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[x86] Gdbserver      : [x86-4.8] libs/x86/gdbserver
+[x86] Gdbsetup       : libs/x86/gdb.setup
+[mips] Gdbserver      : [mipsel-linux-android-4.8] libs/mips/gdbserver
+[mips] Gdbsetup       : libs/mips/gdb.setup
+[arm64-v8a] Compile        : hello-jni <= hello-jni.c
+[arm64-v8a] SharedLibrary  : libhello-jni.so
+[arm64-v8a] Install        : libhello-jni.so => libs/arm64-v8a/libhello-jni.so
+[x86_64] Compile        : hello-jni <= hello-jni.c
+[x86_64] SharedLibrary  : libhello-jni.so
+[x86_64] Install        : libhello-jni.so => libs/x86_64/libhello-jni.so
+[mips64] Compile        : hello-jni <= hello-jni.c
+[mips64] SharedLibrary  : libhello-jni.so
+[mips64] Install        : libhello-jni.so => libs/mips64/libhello-jni.so
+[armeabi-v7a] Compile thumb  : hello-jni <= hello-jni.c
+[armeabi-v7a] SharedLibrary  : libhello-jni.so
+[armeabi-v7a] Install        : libhello-jni.so => libs/armeabi-v7a/libhello-jni.so
+[armeabi] Compile thumb  : hello-jni <= hello-jni.c
+[armeabi] SharedLibrary  : libhello-jni.so
+[armeabi] Install        : libhello-jni.so => libs/armeabi/libhello-jni.so
+[x86] Compile        : hello-jni <= hello-jni.c
+[x86] SharedLibrary  : libhello-jni.so
+[x86] Install        : libhello-jni.so => libs/x86/libhello-jni.so
+[mips] Compile        : hello-jni <= hello-jni.c
+[mips] SharedLibrary  : libhello-jni.so
+[mips] Install        : libhello-jni.so => libs/mips/libhello-jni.so
+
+**** Build Finished ****
