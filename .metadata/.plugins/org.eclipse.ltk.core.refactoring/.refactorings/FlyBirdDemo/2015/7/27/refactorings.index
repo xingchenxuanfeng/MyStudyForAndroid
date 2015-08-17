@@ -1,0 +1,17 @@
+1435995310546	Convert local variable 'pipeBottom_bm' to field
+1435995315031	Convert local variable 'pipeTop_bm' to field
+1435995591787	Convert local variable 'pipeSpan' to field
+1435995595479	Convert local variable 'pipeTopHeight1' to field
+1435995598380	Convert local variable 'pipeTopHeight2' to field
+1435998726516	Rename method 'drawSelf'
+1435998756762	Rename method 'drawItSelf'
+1435998783533	Rename method 'drawbird'
+1436002423981	Convert local variable 'npipetop' to field
+1436002426293	Convert local variable 'npipebottom' to field
+1436012717723	Inline local variable 'npipetop'
+1436012721908	Inline local variable 'npipebottom'
+1436012747549	Inline local variable 'r'
+1436012754854	Inline local variable 'r'
+1436019688172	Convert local variable 'score' to field
+1436020096850	Convert local variable 'pass1' to field
+1436020099163	Convert local variable 'pass2' to field

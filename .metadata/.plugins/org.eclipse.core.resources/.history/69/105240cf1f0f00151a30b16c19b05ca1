@@ -1,7 +1,0 @@
-package com.example.customview;
-
-import android.widget.LinearLayout;
-
-public class customview extends LinearLayout {
-
-}

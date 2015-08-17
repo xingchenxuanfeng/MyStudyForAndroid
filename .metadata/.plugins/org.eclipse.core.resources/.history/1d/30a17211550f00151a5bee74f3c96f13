@@ -1,9 +1,0 @@
-package com.example.testndk;
-
-import android.R.integer;
-
-public class jni {
-	public native integer add();
-
-
-}

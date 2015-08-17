@@ -1,5 +1,7 @@
 package com.example.lifecycle;
 
+import java.io.Serializable;
+
 import android.R.string;
 import android.os.Bundle;
 import android.app.Activity;
@@ -25,6 +27,11 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
 				intent.setClass(getApplicationContext(), BActivity.class);
+				// Bundle bundle = new Bundle();
+				// bundle.putSerializable("user", new User("123", 12));
+				// intent.putExtras(bundle);
+				intent.putExtra("user", new User("123", 12));
+				intent.putExtra("ces", "ces");
 				startActivity(intent);
 			}
 		});

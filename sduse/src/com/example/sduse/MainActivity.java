@@ -69,7 +69,6 @@ public class MainActivity extends Activity {
 			nMap.put("name", s);
 			nMap.put("path", map.get(s).toString());
 			maps.add(nMap);
-
 		}
 		return map;
 	}
@@ -97,35 +96,20 @@ public class MainActivity extends Activity {
 		}
 		return list;
 	}
-/*
-	private void initMapData(ArrayList<File> list2) {
-		// TODO Auto-generated method stub
-		for (int i = 0; i < list2.size(); i++) {
-			Map<String, Object> tempMap = new HashMap<String, Object>();
-			String path = list2.get(i).toURI().toString();
-			String name = path.substring(path.lastIndexOf("/") + 1,
-					path.length());
-			tempMap.put("name", name);
-			tempMap.put("path", path);
-			String s = (String) tempMap.get("name");
-			maps.add(tempMap);
-
-		}
-	}
-
-	private void getAllFile(File file) {
-		// TODO Auto-generated method stub
-		File[] files = file.listFiles();
-		if (files != null) {
-			for (File f : files) {
-				if (f.isDirectory())
-					// getAllFile(f);
-					;
-				else {
-					list.add(f);
-				}
-			}
-		}
-	}
-*/
+	/*
+	 * private void initMapData(ArrayList<File> list2) { // TODO Auto-generated
+	 * method stub for (int i = 0; i < list2.size(); i++) { Map<String, Object>
+	 * tempMap = new HashMap<String, Object>(); String path =
+	 * list2.get(i).toURI().toString(); String name =
+	 * path.substring(path.lastIndexOf("/") + 1, path.length());
+	 * tempMap.put("name", name); tempMap.put("path", path); String s = (String)
+	 * tempMap.get("name"); maps.add(tempMap);
+	 * 
+	 * } }
+	 * 
+	 * private void getAllFile(File file) { // TODO Auto-generated method stub
+	 * File[] files = file.listFiles(); if (files != null) { for (File f :
+	 * files) { if (f.isDirectory()) // getAllFile(f); ; else { list.add(f); } }
+	 * } }
+	 */
 }

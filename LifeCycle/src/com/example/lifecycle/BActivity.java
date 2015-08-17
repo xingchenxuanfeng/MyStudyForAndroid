@@ -18,6 +18,11 @@ public class BActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.bactivity);
+		Intent intent = getIntent();
+		String ceString=intent.getStringExtra("ces");
+		Bundle bundle = intent.getExtras();
+		User u = (User) bundle.getSerializable("user");
+		Log.i("test", u.name + u.age+ceString);
 		button = (Button) findViewById(R.id.button2);
 		button.setOnClickListener(new View.OnClickListener() {
 			@Override

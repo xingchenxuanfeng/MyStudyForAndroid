@@ -1,7 +1,0 @@
-package com.example.lifecycle;
-
-import android.app.Activity;
-
-public class BActivity extends Activity {
-
-}
