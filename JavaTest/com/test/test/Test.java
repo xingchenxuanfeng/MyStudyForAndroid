@@ -1,18 +1,14 @@
 package com.test.test;
 
+import java.util.Map;
+
 public class Test {
-	public Test() {
-		super();
+	public int majorityElement(int[] nums) {
+Map<String, String>a;
+		return 0;
 	}
 
 	public static void main(String[] args) {
-
-		boolean a = false;
-		boolean b = true;
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(a & b);
-		System.out.println(a && b);
 
 	}
 }
